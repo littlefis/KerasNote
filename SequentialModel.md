@@ -101,3 +101,7 @@ one_hot_labels = keras.utils.to_categorical(labels, num_classes=10)
 model.fit(data, one_hot_labels, epochs=10, batch_size=32)
 ```
 
+## 例子
+
+Keras代码包的exampls文件夹
+

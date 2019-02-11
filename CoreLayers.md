@@ -91,6 +91,14 @@ model.add(Flatten())
 # model.output_shape == (None, 65536)
 ```
 
+## Reshape层
+
+```python
+keras.layers.core.Reshape(target_shape)
+```
+
+可将输入的shape转换为特定的shape。
+
 
 
 

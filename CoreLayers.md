@@ -281,11 +281,5 @@ model.add(Masking(mask_value=0., input_shape=(timesteps, features)))
 model.add(LSTM(32))
 ```
 
-
-
-
-
-
-
-
+## SpatialDropout
 
